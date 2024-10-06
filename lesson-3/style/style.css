@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: #BCF2F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid 5px red;
+    width: 100vw;
+    height: 100vh;
+    gap: 10px;
+
+}
+
+.box {
+    background-color: #08C2FF;
+    width: 150px;
+    height: 150px;
+    border: solid 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
